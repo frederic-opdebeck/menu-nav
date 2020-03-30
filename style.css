@@ -6,7 +6,16 @@ body {
 	overflow: hidden;
 	font-family: sans-serif;
 }
+.noscroll{
 
+scroll-behavior: auto;
+/* scroll-behavior: smooth;
+
+/* Valeurs globales */
+/* scroll-behavior: inherit;
+scroll-behavior: initial;
+scroll-behavior: unset; */
+}
 @media ( max-width: 40rem ) {
 	.navigation button {
 		display: block;
